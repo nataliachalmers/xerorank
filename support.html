@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>XEROrank — Support</title>
+<style>
+  :root { --ink:#1b2a33; --muted:#5a6b75; --accent:#0a6e8a; --bg:#ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#e8eef1; --muted:#a9b7c0; --accent:#5fc3dc; --bg:#101a20; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+  h1 { font-size: 1.9rem; line-height:1.2; margin: 0 0 .25rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; color: var(--accent); }
+  p.meta { color: var(--muted); margin: 0 0 1.5rem; }
+  a { color: var(--accent); }
+  nav a { margin-right: 1rem; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="index.html">XEROrank</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
+  <h1>XEROrank Support</h1>
+  <p class="meta">Help using the XEROrank app for iPhone and iPad</p>
+
+  <h2>Contact</h2>
+  <p>Email <a href="mailto:natalia.chalmers@gmail.com?subject=XEROrank%20support">natalia.chalmers@gmail.com</a>. Please include your device model, iOS version and the medication names involved (never patient information). We aim to reply within two business days.</p>
+
+  <h2>How XEROrank works</h2>
+  <p>Enter one or more medication names. XEROrank resolves each name to a standard RxNorm identifier through the National Library of Medicine's RxNav service, retrieves the current FDA label from openFDA, and assigns a xerogenic-potential score from 0 (no signal) to 3 (strong signal) using the XEROrank classification framework. The scores roll up into a regimen tier — low, moderate or high — and the app drafts a chart note with suggested CDT codes that you can copy.</p>
+
+  <h2>Who it is for</h2>
+  <p>Licensed healthcare professionals: dentists, dental hygienists, physicians, nurse practitioners, physician assistants and pharmacists. XEROrank is a reference tool. It does not diagnose xerostomia and does not recommend starting, stopping or changing any medication; those decisions rest with the treating clinician and the prescriber.</p>
+
+  <h2>Common questions</h2>
+  <p><strong>A medication is not found.</strong> Try the generic name (for example, "oxybutynin" rather than a brand name), check the spelling, and make sure the device is online — labels are retrieved live.</p>
+  <p><strong>The label excerpt looks different from the package insert I have.</strong> openFDA serves the most recent labeling submitted by the manufacturer; older printed inserts may differ. The RxNorm identifier shown lets you confirm the exact product matched.</p>
+  <p><strong>A score seems too high or too low.</strong> The score reflects the label's adverse-reaction language and the framework's rules, not an individual patient's experience. Use your clinical judgment; if you think the rule itself is wrong for a drug, email us with the drug name and the label text you are looking at.</p>
+  <p><strong>Does the app store patient information?</strong> No. See the <a href="privacy.html">privacy policy</a>.</p>
+
+  <h2>Data sources</h2>
+  <p>openFDA drug labeling (U.S. Food and Drug Administration) and RxNav / RxNorm (U.S. National Library of Medicine). Both are public U.S. Government data services; XEROrank is not affiliated with or endorsed by either agency.</p>
+</main>
+</body>
+</html>
