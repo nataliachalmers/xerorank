@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>XEROrank — Medication dry-mouth risk screen</title>
+<meta name="description" content="XEROrank screens a medication list for medication-induced xerostomia (dry mouth) risk using current FDA labels. A clinical decision support reference tool for healthcare professionals.">
+<style>
+  :root { --ink:#1b2a33; --muted:#5a6b75; --accent:#0a6e8a; --bg:#ffffff; --card:#f4f9fb; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#e8eef1; --muted:#a9b7c0; --accent:#5fc3dc; --bg:#101a20; --card:#172630; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+  h1 { font-size: 2rem; line-height:1.15; margin: 0 0 .5rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; color: var(--accent); }
+  p.lead { font-size: 1.15rem; color: var(--muted); margin: 0 0 1.5rem; }
+  a { color: var(--accent); }
+  nav a { margin-right: 1rem; }
+  .card { background: var(--card); border-radius: 12px; padding: 1rem 1.25rem; margin: 1rem 0; }
+  .muted { color: var(--muted); font-size: .95rem; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="index.html">XEROrank</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
+  <h1>XEROrank</h1>
+  <p class="lead">Screen a patient's medication list for medication-induced dry mouth (xerostomia) risk, from the current FDA label — in seconds.</p>
+
+  <div class="card">
+    <strong>For healthcare professionals.</strong> XEROrank is a clinical decision support reference tool for dentists, dental hygienists, physicians, nurse practitioners, physician assistants and pharmacists. It does not diagnose, and it does not recommend starting, stopping or changing any medication.
+  </div>
+
+  <h2>How it works</h2>
+  <p>Enter the medications. XEROrank resolves each name through the National Library of Medicine's RxNav service, retrieves the current FDA label from openFDA, and assigns a xerogenic-potential score from 0 to 3 using the XEROrank classification framework, first developed at the U.S. Food and Drug Administration (CDER) from labeling and FDA Adverse Event Reporting System data. Scores roll up into a regimen tier — low, moderate or high — and the app drafts a chart note with suggested CDT codes.</p>
+
+  <h2>Get it</h2>
+  <p>iPhone and iPad: <em>App Store link coming soon.</em><br>
+     Web edition: <a href="https://xerostomia-risk-calculator.ai.studio">xerostomia-risk-calculator.ai.studio</a></p>
+
+  <h2>Privacy</h2>
+  <p>No accounts, no analytics, no advertising. Medication names are sent to two U.S. Government public APIs to retrieve label data and are not stored. Read the <a href="privacy.html">privacy policy</a>.</p>
+
+  <p class="muted">Built by Natalia Chalmers, DDS, MHSc, PhD. Questions: <a href="support.html">support</a>.</p>
+</main>
+</body>
+</html>
